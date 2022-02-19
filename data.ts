@@ -199,7 +199,7 @@ export const projects: IProject[] = [
 
   {
     name: "Portfolio",
-    image_path: "/images/Screenshot(648).png",
+    image_path: "/images/Screenshot(648).jpg",
     deployed_url: "https://github.com/Nikhil3389/Portfolio",
     github_url: "https://github.com/Nikhil3389/Portfolio",
     category: ["node", "react"],
@@ -210,7 +210,7 @@ export const projects: IProject[] = [
 
   {
     name: "Game",
-    image_path: "/images/download.png",
+    image_path: "/images/download.jpg",
     deployed_url: "",
     github_url: "",
     category: [ "Java"],
