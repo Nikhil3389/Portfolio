@@ -18,7 +18,7 @@ const Sidebar =() => {
 
 
         <div>
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHrOsT4MdGMyQ/profile-displayphoto-shrink_400_400/0/1644052880866?e=1649894400&v=beta&t=DSoKRsQNufI2DwHh6Ec1XsAbb4HLv5LsvwmOa7DLO9A"
+            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHrOsT4MdGMyQ/profile-displayphoto-shrink_400_400/0/1644052880866?e=1659571200&v=beta&t=exgLTbA67S5PfPphtXwCVEt5QRA_DwAxQXQ7-xFGFVk"
              alt=" user " 
              className='w-32 h-32 mx-auto rounded-full'/>
 
