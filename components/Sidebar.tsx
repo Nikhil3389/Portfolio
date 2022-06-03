@@ -55,7 +55,7 @@ const Sidebar =() => {
                          <span>Uttar Pradesh, India</span>
                      </div>
                      <p className='my-2 '>nikhil.12001995@lpu.in</p>
-                     <p className='my-2 '>1234567890</p>
+                     <p className='my-2 '>8299558302</p>
                  </div>
                  {/* email button
                   */}
