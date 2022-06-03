@@ -19,7 +19,7 @@ const Sidebar =() => {
 
         <div>
             <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHrOsT4MdGMyQ/profile-displayphoto-shrink_400_400/0/1644052880866?e=1659571200&v=beta&t=exgLTbA67S5PfPphtXwCVEt5QRA_DwAxQXQ7-xFGFVk"
-             alt=" user " 
+             alt=" Loading " 
              className='w-32 h-32 mx-auto rounded-full'/>
 
              <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'>
