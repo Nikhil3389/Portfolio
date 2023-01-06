@@ -13,7 +13,7 @@ import { GetServerSidePropsContext,GetStaticPropsContext,
 
       <motion.div 
       variants={ routeAnimation}
-      initial= "initial " 
+      initial= "initial" 
        animate = "animate"
         className='flex flex-col flex-grow px-6 pt-1'>
         <h5 className='my-3 font-medium'>I am currently pursuing Bachelor of Technology  Degree(Second Year) in Computer Science Engineering from Lovely Professional University, Punjab. I am good at mathematics and problem-solving. Languages are known by me: Java, C, C++. | Coordinator @Developer Students Club-LPU | 5 stars in Python, 5 stars in C++ and 3 stars in C on HackerRank </h5>
