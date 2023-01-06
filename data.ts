@@ -180,7 +180,7 @@ export const projects: IProject[] = [
 
   {
     name: "Lucrer",
-    image_path: "/images/lurer.png",
+    image_path: "/images/Lurer.png",
     deployed_url: "https://enchanting-daifuku-59e0c2.netlify.app/",
 
     github_url: "https://github.com/Nikhil3389/Lucrer",
