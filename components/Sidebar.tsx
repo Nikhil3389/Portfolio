@@ -1,6 +1,6 @@
 import {AiFillGithub,AiFillLinkedin,AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
-import{SiHackerrank} from 'react-icons/si'
-
+import{SiHackerrank,SiLeetcode} from 'react-icons/si'
+import{BiCodeAlt} from 'react-icons/bi'
 import {GoLocation} from 'react-icons/go'
 import {GiTie} from 'react-icons/gi'
 import { useTheme } from 'next-themes'
@@ -18,8 +18,8 @@ const Sidebar =() => {
 
 
         <div>
-            <img src="/assets/IMG_20210521_162612_474.jpg"
-             alt=" Loading " 
+            <img src="./nikhil.jpeg"
+             alt=" user " 
              className='w-32 h-32 mx-auto rounded-full'/>
 
              <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'>
@@ -38,12 +38,16 @@ const Sidebar =() => {
                     <a href="https://github.com/Nikhil3389">
                         <AiFillGithub className="w-8 h-8 cursor-pointer"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/nikhil-kumar-kataria-7775311b7/">
+                    <a href="https://www.linkedin.com/in/nikhil-kumar-kataria/">
                         <AiFillLinkedin className="w-8 h-8 cursor-pointer"/>
                     </a>
-                    <a href="https://www.instagram.com/nikhilkumarkataria/">
-                        <AiFillInstagram className="w-8 h-8 cursor-pointer"/>
+                    <a href="https://leetcode.com/Nikki3389/">
+                        <SiLeetcode className="w-8 h-8 cursor-pointer"/>
                     </a>
+                    <a href="https://www.codechef.com/users/nikhil_3388">
+                        <BiCodeAlt className="w-8 h-8 cursor-pointer"/>
+                    </a>
+                    
 
 
                 </div>
