@@ -7,16 +7,16 @@ import { GetServerSidePropsContext,GetStaticPropsContext,
   import { fadeInUp, routeAnimation, stagger } from '../animations';
   // import {Services } from "../type"
   
-  const index = ({endpoint}) => {
-  console.log(endpoint);
+  const index = () => {
+  
     return (
 
       <motion.div 
       variants={ routeAnimation}
-      initial= "initial " 
+      initial= "initial" 
        animate = "animate"
         className='flex flex-col flex-grow px-6 pt-1'>
-        <h5 className='my-3 font-medium'>I am currently pursuing Bachelor of Technology  Degree(Second Year) in Computer Science Engineering from Lovely Professional University, Punjab. I am good at mathematics and problem-solving. Languages are known by me: Java, C, C++. | Coordinator @Developer Students Club-LPU | 5 stars in Python, 5 stars in C++ and 3 stars in C on HackerRank </h5>
+        <h5 className='my-3 font-medium'>I am currently pursuing Bachelor of Technology  Degree(Third Year) in Computer Science Engineering from Lovely Professional University, Punjab. I am good at mathematics and problem-solving. Languages are known by me: Java, C, C++. |Competitive Programmer | | Ethical Hacker | | Full Stack Developer | | div 3 Codeshef 150+| | Leetcode 100+| | GFG 200+ | | Level 5 @ Coding Ninja | | 5⭐C++, Python @Hacker Rank | | Member @ShappireLPU </h5>
      
       <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100'
       style={{marginLeft:'-1.5rem', marginRight: '-1.5rem' }}>
@@ -47,15 +47,15 @@ import { GetServerSidePropsContext,GetStaticPropsContext,
   
   export const getServerSideProps = async (context:GetServerSidePropsContext) =>
   {
-  //  console.log(process.env.VERCEL_URL)
-    // const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
-    // const data = await res.json()
-    // console.log(data)
+  
+    const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
+    const data = await res.json()
   
     return{
-     props:{endpoint:process.env.VERCEL_URL  }}; 
-  };
-  
+     props:{services: data.services,
+    } ,  
+  }
+  }
   
   // export const getStaticProps = async (context:GetStaticPropsContext) =>
   // {
