@@ -47,24 +47,24 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b>Next.js</b>  and <b>React.js</b> ",
+      "I can build a beautiful page using <b> HTML</b>,<b>CSS</b>, <b>.js</b>  and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>React </b> & other frameworks",
+      "handle database  using <b> MongoDb </b> & other frameworks",
   },
-  {
-    Icon: AiOutlineApi,
-    title: "API Development",
-    about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
-  },
+  // {
+  //   Icon: AiOutlineApi,
+  //   title: "API Development",
+  //   about:
+  //     "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+  // },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "a daily problem solver in <b>HackerRank</b>, <b>Codeshef</b>, <b>GeeksforGeeks</b>, <b>Codestudio</b>, <b>HackerEarth</b>and <b>LeetCode</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -88,14 +88,14 @@ export const languages: ISkill[] = [
   },
   {
     Icon: DiJavascript,
-    name: "Java Script",
+    name: "JavaScript",
     level: "80",
   },
-  {
-    Icon: FaReact,
-    name: "React Native",
-    level: "30",
-  },
+  // {
+  //   Icon: FaReact,
+  //   name: "R",
+  //   level: "30",
+  // },
   {
     Icon: FaReact,
     name: "React",
@@ -164,96 +164,115 @@ export const projects: IProject[] = [
     image_path: "/images/Covid.jfif",
     deployed_url: "https://nikhil3389.github.io/project/",
     github_url: "https://github.com/Nikhil3389/project",
-    category: ["HTML"],
+    category: ["python"],
     key_techs: ["python" ],
   },
-  {
-    name: "Price Prediction",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://github.com/Nikhil3389/Uber_Price_prediction",
-    github_url: "https://github.com/Nikhil3389/Uber_Price_prediction",
-    category: ["python"],
-    description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["python"],
-  },
-
   // {
-  //   name: "Dev Talks",
-  //   image_path: "/images/dev.jpg",
-  //   deployed_url: "https://dev-talks.herokuapp.com/",
-  //   github_url: "https://github.com/Dey-Sumit/Dev-talks",
-  //   category: ["node", "react"],
+  //   name: "Algorithm Visualizer",
+  //   image_path: "/images/algoVisual.png",
+  //   deployed_url: "https://visual-algorithm.web.app/",
+  //   github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+  //   category: ["react"],
   //   description:
-  //     "Social Media app for developers who can share project,create posts,etc...",
-  //   key_techs: [
-  //     "React",
-  //     "Redux",
-  //     "Node",
-  //     "Express",
-  //     "Mongo",
-  //     "REST API",
-  //     "Bootstrap",
-  //   ],
+  //     "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
+  //   key_techs: ["React", "firebase", "Framer Motion"],
   // },
+
+  {
+    name: "Lucrer",
+    image_path: "/images/lurer.png",
+    deployed_url: "https://enchanting-daifuku-59e0c2.netlify.app/",
+
+    github_url: "https://github.com/Nikhil3389/Lucrer",
+    category: ["node", "react"],
+    description:
+      "Cryptocurrency Platform for Traders",
+    key_techs: [
+      "React",
+      "Redux",
+      "Node",
+      "Express",
+      "Mongo",
+      "REST API",
+      "Bootstrap",
+    ],
+  },
 
   {
     name: "Portfolio",
-    image_path: "/images/PORT.jpg",
-    deployed_url: "https://github.com/Nikhil3389/Portfolio",
-    github_url: "https://github.com/Nikhil3389/Portfolio",
+    image_path: "/images/portfolio.png",
+    deployed_url: "https://sumit-chat.netlify.app/",
+    github_url: "https://github.com/Nikhil3389/Protfolio",
     category: ["node", "react"],
     description:
-    "It contain about me",
-    key_techs: ["React", "Node", "Bootstrap"],
+      "It contain details of my resume and projects",
+    key_techs: ["Next", "Node", "Bootstrap"],
   },
 
   {
-    name: "Game",
-    image_path: "/images/download.jpg",
-    deployed_url: "",
-    github_url: "",
-    category: [ "Java"],
+    name: "Tic Toe Game ",
+    image_path: "/images/tic.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/Nikhil3389/FirstGame",
+    category: [ "react"],
     description:
-      "Tic tak toe game",
+      "First Game Project :)",
     key_techs: ["Java"],
   },
 
-  // {
-  //   name: "Color Classification using tf.js",
-  //   image_path: "/images/color.jpg",
-  //   deployed_url: "!#",
-  //   github_url: "https://github.com/Dey-Sumit/color-classification",
-  //   category: [],
-  //   description:
-  //     "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-  //   key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-  // },
-  // {
-  //   name: "YouTube using YouTube ",
-  //   image_path: "/images/youtubeClone.png",
-  //   deployed_url: "https://not-utube.web.app/",
-  //   github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-  //   category: [],
-  //   description:
-  //     'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-  //   key_techs: [
-  //     "React",
-  //     "Redux",
-  //     "Firebase Auth",
-  //     "YouTube API",
-  //     "Sass",
-  //     "Bootstrap",
-  //   ],
-  // },
-  // {
-  //   name: "Football App",
-  //   image_path: "/images/football.png",
-  //   deployed_url: "https://o-my-goal.web.app/",
-  //   github_url: "https://github.com/Dey-Sumit/football-app",
-  //   category: ["react"],
-  //   description:
-  //     "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-  //   key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
-  // },
+  {
+    name: "News Application",
+    image_path: "/images/news.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/Nikhil3389/News-Application",
+    category: [],
+    description:
+      "News Application :) | this app show news",
+    key_techs: ["Java"],
+  },
+  {
+    name: "YouTube using YouTube ",
+    image_path: "/images/youtubeClone.png",
+    deployed_url: "#",
+    github_url: "#",
+    category: [],
+    description:
+      'COMING SOON  ',
+    key_techs: [
+      ,
+    ]
+    ,
+  },
+  {
+    name: "Fair Price Prediction ",
+    image_path: "/images/car.png",
+    deployed_url: "#",
+    github_url: "https://github.com/Nikhil3389/Uber_Price_prediction",
+    category: [],
+    description:
+      "This is use to fair price of uber ",
+    key_techs: ["Python","Machine Learning"],
+  },
+  {
+    name: "Stock Price Prediction ",
+    image_path: "/images/stock.jfif",
+    deployed_url: "#",
+    github_url: "https://github.com/Nikhil3389/Stock_prediction",
+    category: [],
+    description:
+      "This is stock prediction of Microsoft dataset using LSTM Model",
+    key_techs: ["Python","Machine Learning"],
+  },
+  {
+    name: "Sudoku",
+    image_path: "/images/game1.jfif",
+    deployed_url: "https://sudoku-liard-five.vercel.app/",
+    github_url: "https://github.com/Nikhil3389/sudoku",
+    category: [],
+    description:
+      "Simple game with using data structures",
+    key_techs: ["Data Structures","C++","HTML"],
+  },
+
+  
 ];
