@@ -1,5 +1,4 @@
-import { GetServerSidePropsContext,GetStaticPropsContext,
-  GetStaticProps , GetServerSideProps,NextPage } from 'next';
+import { GetServerSidePropsContext,GetStaticPropsContext,GetStaticProps , GetServerSideProps,NextPage } from 'next';
   import React from 'react'
   import ServiceCard from '../components/ServiceCard';
   import {services} from '../data';
